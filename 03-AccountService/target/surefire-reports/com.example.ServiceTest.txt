@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.example.ServiceTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.832 s <<< FAILURE! -- in com.example.ServiceTest
+com.example.ServiceTest.testingTheSaveAccountMethod -- Time elapsed: 0.054 s <<< ERROR!
+java.lang.ClassCastException: class org.hamcrest.core.IsInstanceOf cannot be cast to class com.example.Account (org.hamcrest.core.IsInstanceOf and com.example.Account are in unnamed module of loader 'app')
+	at com.example.ServiceTest.testingTheSaveAccountMethod(ServiceTest.java:83)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
